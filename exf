@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Get the number of directories to create from the command-line argument
+num_dirs=$1
+
+# Loop through the range of numbers up to num_dirs
+i=0
+while [ $i -le $num_dirs ]; do
+    # Use printf to add leading zeros if necessary
+    if [ $i -lt 10 ]; then
+        dir_name="ex0$i"
+    else
+        dir_name="ex$i"
+    fi
+
+    # Create the directory
+    mkdir "./$dir_name"
+    i=$((i + 1))
+done

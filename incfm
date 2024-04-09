@@ -1,0 +1,5 @@
+#!/bin/sh
+
+touch .gitignore
+
+echo "*.out\nex*.c" > .gitignore
