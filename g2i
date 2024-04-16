@@ -1,0 +1,21 @@
+#!/bin/zsh
+
+if [ $# -ge 2 ]; then
+	git_repo=$1
+	intra_repo=$2
+
+	cd $git_repo
+	git pull
+	cp -r ./* $intra_repo
+	cd $intra_repo
+	if [ $# -ge 3 ]; then
+		git commit -m "$3"
+	else
+		git commit -m "$(date +%Y-%m-%d)"
+	fi
+	git push
+	echo -e "\e[42mSUCCESS!!!\n\e[0m"
+else
+	echo -e "\e[41mFAILED due to lack of arguemts...\n\n\n\e[0m"
+	echo -e "\e[44mYou need to add at least two arguments, the first one being the path of your repo from github, and the second the one from your intra...\n\e[0m"
+fi
