@@ -34,4 +34,13 @@ chmod +x ~/bin/exf
 
 ---
 
+To make this program work, you have to do the following inside this folder
+
+```sh
+cp ./cnp ~/bin/cnp
+chmod +x ~/bin/cnp
+```
+
+---
+
 More scripts are being added along the way.
