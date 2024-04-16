@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [[ $# -eq 0]]; then
+if [ $# -eq 0 ]; then
 	message="No message"
 else
 	message="$*"
