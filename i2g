@@ -7,7 +7,7 @@ if [ $# -ge 2 ]; then
 	cd $intra_repo
 	git pull
 	cp -r ./* $git_repo
-	cd $intra_repo
+	cd $git_repo
 	git add .
 	if [ $# -ge 3 ]; then
 		git commit -m "$3"
