@@ -9,3 +9,5 @@ fi
 git add .
 git commit -m "$message"
 git push
+
+echo -e "\e[42mUPDATED!!!\e[0m"
