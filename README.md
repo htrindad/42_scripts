@@ -70,6 +70,20 @@ To use it follow the following syntax
 g2i {path_to_github_repo} {path_to_intra_repo} {commit (optional)}
 ```
 
+---
+
+### i2g
+
+Same thing but reverse
+
+---
+
+To make this program work, you have to do the following inside this folder
+
+```bash
+cp ./i2g ~/bin/i2g
+chmod +x ~/bin/i2g
+```
 
 ---
 
