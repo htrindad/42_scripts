@@ -34,6 +34,12 @@ chmod +x ~/bin/exf
 
 ---
 
+### cnb
+
+This script commits and pushes the changes for you
+
+---
+
 To make this program work, you have to do the following inside this folder
 
 ```sh
