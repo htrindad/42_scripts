@@ -50,3 +50,10 @@ chmod +x ~/bin/cnp
 ---
 
 More scripts are being added along the way.
+
+
+---
+
+### NOTE
+
+Instead of ``~/bin/`` for the folder, you may add ``~/.local/bin/`` if it is in your path.
