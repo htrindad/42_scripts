@@ -18,5 +18,5 @@ if [ $# -ge 2 ]; then
 	echo -e "\e[42mSUCCESS!!!\n\e[0m"
 else
 	echo -e "\e[41mFAILED due to lack of arguemts...\n\n\n\e[0m"
-	echo -e "\e[44mYou need to add at least two arguments, the first one being the path of your repo from github, and the second the one from your intra...\n\e[0m"
+	echo -e "\e[44mYou need to add at least two arguments, the first one being the path of your repo from intra, and the second the one from your github...\n\e[0m"
 fi
