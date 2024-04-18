@@ -34,7 +34,7 @@ chmod +x ~/bin/exf
 
 ---
 
-### cnb
+### cnp
 
 This script commits and pushes the changes for you
 

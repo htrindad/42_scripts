@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+touch .gitignore
+
+echo "README.md\nLICENSE" > .gitignore
