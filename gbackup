@@ -4,8 +4,11 @@ if [ $# -ge 2 ]; then
 	intra_repo=$1
 	git_repo=$2
 
+	echo "pulling possible changes from origin repo.\n"
 	cd $intra_repo
 	git pull
+	echo "Removing all files from target repo\n"
+	rm -rf $git_repo/*
 	cp -r ./* $git_repo
 	cd $git_repo
 	git add .
